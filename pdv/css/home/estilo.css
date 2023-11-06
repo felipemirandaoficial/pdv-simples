@@ -1,0 +1,185 @@
+body {
+    background-color: #000;
+	color:white;
+}
+
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnnotas {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnnotas2 {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnnotas:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnnotas2:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnnotas:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnnotas2:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnConf {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnhome {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnreload {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnhome:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+#btnreload:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+
+#btnConf:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+
+#btnhome:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnreload:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnConf:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: rgb(78, 37, 37);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+#btnClose:active {
+    background-color: rgb(151, 73, 73);
+}
+
+#btnClose2 {
+    padding: 8px;
+    background-color: rgb(78, 37, 37);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+#btnClose2:active {
+    background-color: rgb(151, 73, 73);
+}
+.menu {
+    position: fixed;
+    top: 0;
+	margin-left: -250;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(40, 42, 54);
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: block;
+}
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menu ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+/* Aqui */
+.menuconf {
+    position: fixed;
+    top: 0;
+	margin-left: -250;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(40, 42, 54);
+}
+.menuconf ul {
+    list-style: none;
+}
+.menuconf ul li {
+    display: block;
+}
+.menuconf ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menuconf ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+.effect {
+    transition: margin 0.4s;
+}
