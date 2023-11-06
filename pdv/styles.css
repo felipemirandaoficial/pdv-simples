@@ -1,0 +1,349 @@
+/* Estilos CSS para a formatação */
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+    body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		min-height: 99vh;
+		display: flex;
+		flex-direction: column;
+		background-color: #000;
+		color:white;
+    }
+	
+	table td{
+		color:white;
+	}
+
+	footer {
+      margin-top: auto;
+      background-color: #333; /* Adapte a cor conforme sua preferência */
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+	
+	#success-message {
+		display: none;
+		background-color: #4CAF50;
+		color: white;
+		padding: 20px;
+		position: fixed;
+		bottom: 50%;
+		right: 50%;
+		transform: translate(50%, 50%);
+		z-index: 1;
+		border-radius: 10px;
+		text-align: center;
+	}
+    #scanner-input {
+      width: 100%;
+      height: 40px;
+      font-size: 18px;
+      padding: 5px;
+      box-sizing: border-box;
+	  text-align: center;
+    }
+	#sugestoes {
+      width: 80%;
+      height: 30px;
+      font-size: 18px;
+      padding: 0px;
+      box-sizing: border-box;
+	  text-align: center;
+    }
+
+    #product-list {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #product-list th,
+    #product-list td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+	  border-radius: 12px; 
+    }
+
+    #receipt {
+      margin-top: 20px;
+      text-align: center;
+	  display:none;
+    }
+	
+
+/* Botoes de acao */
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnnotas {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnnotas2 {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnnotas:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnnotas2:hover {
+    border-radius: 50%;
+    cursor: pointer;
+   	border-color: green;
+	border-style: solid;
+}
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnnotas:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnnotas2:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnConf {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+}
+#btnhome {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnreload {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+	
+}
+#btnhome:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+#btnreload:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+
+#btnConf:hover {
+    border-radius: 50%;
+	border-color: green;
+	border-style: solid;
+    cursor: pointer;
+    
+}
+
+#btnhome:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnreload:active {
+    background-color: rgb(3, 4, 7);
+}
+#btnConf:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: rgb(78, 37, 37);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+#btnClose:active {
+    background-color: rgb(151, 73, 73);
+}
+
+#btnClose2 {
+    padding: 8px;
+    background-color: rgb(78, 37, 37);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+#btnClose2:active {
+    background-color: rgb(151, 73, 73);
+}
+.menu {
+    position: fixed;
+    top: 0;
+	margin-left: -250;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(40, 42, 54);
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: block;
+}
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menu ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+/* Aqui */
+.menuconf {
+    position: fixed;
+    top: 0;
+	margin-left: -250;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(40, 42, 54);
+}
+.menuconf ul {
+    list-style: none;
+}
+.menuconf ul li {
+    display: block;
+}
+.menuconf ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menuconf ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+/* Outros Botoes */
+
+
+.button {
+    cursor: pointer;
+	background-color: #04AA6D;
+	width:  30%;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 4px;
+	font-size: 13px;
+	border: 2px solid white;
+    font-weight: bold;
+	width:  100px;
+	height: 30px;
+	border-radius: 4px;
+	font-size: 20px;
+	border: 2px solid green;
+	color: white;
+	text-align: center;
+	text-decoration: none;	
+	margin-top: 15px; background-color: #04AA6D;
+}
+.button3 {
+    cursor: pointer;
+	background-color: #4CAF50;
+	width:  100px;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 4px;
+	font-size: 13px;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	text-decoration: none;  
+	text-align: left;
+    font-weight: bold;
+	text-align: center;
+}
+.button3:hover {
+    background-color: rgb(49, 54, 85);
+}
+.container {
+  box-shadow: 0 1px 3px rgba(0, 100, 0, 0.12), 0 1px 2px rgba(0, 150, 0, 0.24);
+}
+
+
+.button4 {
+    cursor: pointer;
+	background-color: blue;
+	width:  100px;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 4px;
+	font-size: 13px;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	text-decoration: none;  
+	text-align: left;
+    font-weight: bold;
+	text-align: center;
+}
+
+.button4:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+.form-btn {
+    margin: 15px 0;
+    height: 46px;
+    width: 100%;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--main-color);
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.form-btn:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
